@@ -1,0 +1,19 @@
+{
+    "eval": 0,
+    "inputs": [
+        "RIGHT",
+        "DROP"
+    ],
+    "pair": [
+        2,
+        1
+    ],
+    "placement": {
+        "r": 1,
+        "x": 3
+    },
+    "used": {
+        "index": 0,
+        "type": "next"
+    }
+}

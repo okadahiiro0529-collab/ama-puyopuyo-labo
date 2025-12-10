@@ -1,0 +1,5 @@
+{
+        "placement": { "x": 2, "r": 0 },
+        "inputs": ["LEFT","LEFT","DROP"],
+        "eval": 12345
+    }

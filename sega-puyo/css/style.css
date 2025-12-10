@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  -webkit-user-select: none; 
+}
+img#nowLoading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 15vh;
+  margin: calc((100vh - 15vh) / 2.0) calc((100vw - 49vh) / 2.0);
+}
+img#pause {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 15vh;
+  margin: calc((100vh - 15vh) / 2.0) calc((100vw - 49vh) / 2.0);
+  opacity: 0.8;
+}
+img#youWin {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 15vh;
+  margin: calc((100vh - 15vh) / 2.0) calc((100vw - 49vh) / 2.0);
+}
+img#changeServerConnection {
+  cursor: pointer;
+  margin: 3px;
+}
+div#rivalBoard {
+  /* css/ から見て img は ../img/ にある想定 */
+  background: url("../img/puyo_1bg.png");
+  box-sizing: border-box;
+  border: 2px solid rgb(255 0 0);
+}
+div#stage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px auto;
+  overflow: hidden;
+  background: url("../img/puyo_2bg.png");
+  box-sizing: border-box;
+  border: 2px solid rgb(0 0 255);
+}
+div#score {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px auto;
+  overflow: hidden;
+  text-align: right;
+  background-color: rgb(36 192 187);
+}
+div#nextPuyos {
+  margin: 0px;
+  overflow: hidden;
+  text-align: right;
+  border-radius: 30px;
+  background-color: rgb(0 90 150);
+}
+
+#ojamaNotice {
+  position: absolute;
+  top: 10px;
+  right: 10px; /* 画面右上例 */
+  background: #fff9;
+  border: 2px solid #333;
+  padding: 6px 12px;
+  font-size: 20px;
+  border-radius: 8px;
+  z-index: 99;
+}
